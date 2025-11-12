@@ -11,7 +11,7 @@ DATABASE = './app.db'
 
 def get_db():
     db = getattr(g, '_database', None)
-    print("✅ Testing Jenkins CI trigger2")
+    print("✅ Testing Jenkins CI trigger3")
     if db is None:
         db = g._database = sqlite3.connect(DATABASE)
     return db
