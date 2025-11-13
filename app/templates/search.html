@@ -1,14 +1,8 @@
 <!doctype html>
 <html>
-  <head><meta charset="utf-8"><title>Search</title></head>
+  <head><meta charset="utf-8"><title>Greeting</title></head>
   <body>
-    <h2>Search results for: {{ query }}</h2>
-    <ul>
-      {% for r in results %}
-        <li>{{ r[1] }} - {{ r[2] }}</li>
-      {% endfor %}
-    </ul>
-
-    <p>Say hello: <a href="/greet?name={{ query }}">{{ query }}</a></p>
+    <h2>Hello, {{ name }}</h2>
+    <a href="/">Back to home</a>
   </body>
 </html>
