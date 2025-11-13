@@ -59,7 +59,7 @@ def greet():
     return render_template('greet.html', name=safe_name)
 
 if __name__ == "__main__":
-    print("🚀 Starting DevSecOps vulnerable app...")
+    print("🚀 Starting DevSecOps vulnerable app python...")
     # Initialize DB if doesn't exist
     if not os.path.exists(DATABASE):
         conn = sqlite3.connect(DATABASE)
